@@ -14,7 +14,7 @@ They are essentially there to explain what the hell is going on with each line o
 
 
 
-1. [glShaderSource](https://docs.gl/)
+1. [docs.gl](https://docs.gl/)
 2. [The Cherno](https://www.youtube.com/@TheCherno)
 
 
