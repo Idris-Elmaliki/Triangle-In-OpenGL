@@ -22,7 +22,6 @@ They are essentially there to explain what the hell is going on with each line o
 These two sources are very helpful with the OpenGL learning experience!
 
 Extra Info
-
 ----------
 
 I also wanted to include that I've linked and used both \*GLFW\* and \*GLEW\* in this project. With \*GLFW\* handling the window opening rather than Win32 and \*GLEW\* handling to use the modern versions of OpenGL since for some reason Windows out of the box only supports OpenGL 1.1...   
