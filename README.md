@@ -1,7 +1,4 @@
 # About
-=======
-
-
 
 This repo just contains the requirements for creating a Triangle in modern \*\*OpenGL\*\*. 
 
