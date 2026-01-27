@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Any copilot instructions (I really hate Visual Studio...)
+.github
+
 # User-specific files
 *.rsuser
 *.suo
