@@ -37,21 +37,6 @@ static std::string parseFile(const std::string& filepath)
             else if (line.find("fragment")) {
                 type = ShaderType::FRAGMENT;
             }
-
-            switch (type) {
-                case ShaderType::VERTEX: {
-                    std::cout << "Vertex shader\n";
-                    break; 
-                }
-                case ShaderType::FRAGMENT: {
-                    std::cout << "Fragment shader\n"; 
-                    break; 
-                }
-                default: {
-                    std::cout << "Not a shader\n"; 
-                    break; 
-                }
-            }
         }
         else {
             ss << line << '\n'; 
@@ -164,8 +149,8 @@ int main(void)
   
 
     ShaderSource Shaders = getShaders(
-        "Triangle/res/shaders/vertex.shader", 
-        "Triangle/res/shaders/fragment.shader"
+        "res/shaders/vertex.shader", 
+        "res/shaders/fragment.shader"
     );
 
     std::cout << "Vertex" << std::endl;
